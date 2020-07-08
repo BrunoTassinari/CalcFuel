@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc combustível</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./resposive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&family=Raleway&display=swap" rel="stylesheet">
+    <link href="htts://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="title">Calculo de combustível</h1>
+    </header>
+    
+            <h2 class="subtitle container">Digite os seguintes dados:</h2>
+        <div class="label container">
+            <p>
+                <label for="tempo">Informe o tempo da viagem em minutos:</label>
+                    <input id="n1" type="number" placeholder="Ex: 90">
+                       
+                <label for="velocidade">Informe a velocidade em Km/h:</label>
+                    <input id="n2" type="number" placeholder="Ex: 25"> 
+                        
+                <label for="km/l">Quantos km seu carro faz por litro?</label>
+                    <input id="n3" type="number" placeholder="Ex: 8"> 
+                    
+                <label for="preco gasolina"> Informe o preço da gasolina:</label>
+                    <input id="preco" type="text" placeholder="Ex: 4,70">
+             </p>
+        </div>  
+
+        <div class="button container">
+            <button onclick="ab()"> Calcular </button>
+        </div>
+
+        <div class="results container">
+            <h1 class="resultado"> Os resultados da viagem:</h1>
+            <li id="oneResult"></li>
+            <li id="twoResult">Para a viagem, é necessário:</li>
+        </div>
+     
+</body>
+
+    <script src="java.js"></script>
+</html>

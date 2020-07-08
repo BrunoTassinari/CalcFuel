@@ -1,0 +1,25 @@
+@media (min-width: 600px){
+  
+    .label input{
+        font-size: 15px;
+        width: 55%;
+        margin: auto;
+        max-width: 600px;
+       
+  }
+  .label label{
+    font-size: 18px;
+   
+}
+}
+
+@media (min-width: 600px){
+  
+  .container{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 1300px;
+     
+}
+}
